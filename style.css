@@ -187,7 +187,6 @@ ul{
 
 }
 
-
 /* Main */
 .hero {
     background: linear-gradient(145deg, var(--cyan-from), var(--cyan-to));
@@ -215,16 +214,15 @@ ul{
 }
 
 .btn {
+    cursor: pointer;
+    aspect-ratio: 1;
+}
+
+.btn-download {
     background-color: var(--magenta);
     color: var(--white);
     padding: 2rem 2rem;
-    border-radius: 5px;
     font-size: 1.2rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    aspect-ratio: 1;
 }
 
 .download {
@@ -241,7 +239,59 @@ ul{
     margin: 0;
 }
 
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
 
+@media screen and (min-width: 641px) {
+    .gallery {
+        flex-direction: row;
+    }
+}
+
+.gallery-item {
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+.btn-gallery {
+    background-color: var(--violet);
+    color: var(--white);
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-woman {
+    background-image: url(./img/woman.png);
+    background-size: cover;
+}
+
+.btn-bridge {
+    background-image: url(./img/bridge.png);
+    background-size: cover;
+}
 
 /* Utility  classes */
 .center {
@@ -298,6 +348,9 @@ ul{
 }
 .mb-2 {
     margin-bottom: 2rem;
+}
+.text-big {
+    font-size: 4rem;
 }
 .text-xxl {
     font-size: 2.5rem;
