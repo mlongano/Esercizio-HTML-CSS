@@ -226,3 +226,92 @@ ul{
     cursor: pointer;
     aspect-ratio: 1;
 }
+
+.download {
+    color: var(--white);
+    background-color: var(--black);
+    display: flex;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    justify-content: space-between;
+}
+.download p {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    margin: 0;
+}
+
+
+
+/* Utility  classes */
+.center {
+    text-align: center;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-justify {
+    text-align: justify;
+}
+.text-left {
+    text-align: left;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+.text-capitalize {
+    text-transform: capitalize;
+}
+.text-lowercase {
+    text-transform: lowercase;
+}
+.text-white {
+    color: var(--white);
+}
+.text-black {
+    color: var(--black);
+}
+.text-gray {
+    color: var(--gray);
+}
+.text-cyan {
+    color: var(--cyan-from);
+}
+.text-magenta {
+    color: var(--magenta);
+}
+.text-violet {
+    color: var(--violet);
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+.mb-1 {
+    margin-bottom: 1rem;
+}
+.mt-2 {
+    margin-top: 2rem;
+}
+.mb-2 {
+    margin-bottom: 2rem;
+}
+.text-xxl {
+    font-size: 2.5rem;
+}
+.text-xl {
+    font-size: 1.5rem;
+}
+
+.text-lg {
+    font-size: 1.25rem;
+}
+.text-md {
+    font-size: 1rem;
+}
+.text-sm {
+    font-size: 0.75rem;
+}
