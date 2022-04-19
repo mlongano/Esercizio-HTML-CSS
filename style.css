@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"); /* import font */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 :root{
     --white: #f9f9f9;
@@ -187,3 +188,41 @@ ul{
 }
 
 
+/* Main */
+.hero {
+    background: linear-gradient(145deg, var(--cyan-from), var(--cyan-to));
+    height: 16rem;
+    width: auto;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: var(--white);
+    font-size: 2rem;
+    text-align: left;
+    padding: 0 2rem;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.btn {
+    background-color: var(--magenta);
+    color: var(--white);
+    padding: 2rem 2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    aspect-ratio: 1;
+}
