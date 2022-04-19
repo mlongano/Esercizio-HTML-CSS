@@ -293,6 +293,36 @@ ul{
     background-size: cover;
 }
 
+
+.article {
+    background-color: var(--white);
+    color: var(--black);
+    padding: 1rem 4rem 4rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.article h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--cyan-from);
+}
+
+.article p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 2rem;
+}
+
+@media screen and (min-width: 641px) {
+    .article .text {
+        column-count: 2;
+        column-gap: 2rem;
+    }
+}
+
+
 /* Utility  classes */
 .center {
     text-align: center;
